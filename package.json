@@ -15,7 +15,9 @@
   "engines": {
     "node": ">=4.0.0"
   },
-  "main": "bin/mockery",
+  "bin": {
+    "api-mockery": "bin/mockery"
+  },
   "dependencies": {
     "body-parser": "~1.13.2",
     "commander": "^2.8.1",

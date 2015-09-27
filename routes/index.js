@@ -16,7 +16,7 @@ router.all('*', function(req, res) {
     .replace('?', '\\?')
     .replace('$', '\\$')
     .replace('^', '\\^');
-    
+
   regexp = new RegExp(sanitizedOgUrl);
 
   debug('regexp based off request', regexp);
