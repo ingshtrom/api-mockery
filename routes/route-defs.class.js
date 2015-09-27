@@ -24,7 +24,6 @@ class RouteDefs {
         }
 
         this.harFileLocation = harFileLocation;
-        this.parsedContents = undefined;
     }
 
     getDefs () {
@@ -32,6 +31,9 @@ class RouteDefs {
             this.parse();
         }
         return this.parsedContents;
+    }
+
+    getPOST () {
     }
 
     parse () {
