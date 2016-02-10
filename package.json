@@ -4,6 +4,9 @@
   "private": false,
   "preferGlobal": true,
   "license": "MIT",
+  "scripts": {
+    "test": "echo 'craziness!!!'"
+  },
   "author": {
     "name": "Alex \"Ingshtrom\" Hokanson",
     "email": "ingshtrom.developer@gmail.com"
